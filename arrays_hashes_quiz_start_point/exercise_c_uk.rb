@@ -19,7 +19,7 @@ united_kingdom = [
 # 1. Change the capital of Wales from `"Swansea"` to `"Cardiff"`.
 country_wales = united_kingdom[1]
 country_wales[:capital] = "Cardiff"
-#p country_wales
+## united_kingdom[1][:capital] = "Cardiff"
 
 # 2. Create a Hash for Northern Ireland and add it to the `united_kingdom` array (The capital is Belfast, and the population is 1,811,000).
 country_northern_irland = {name: "Northern Ireland", population: 1811000, capital: "Belfast"}
